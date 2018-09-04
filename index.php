@@ -21,7 +21,7 @@ $menu = [
 	[
 		'url' => 'stargate.php',
 		'kreoleac' => 'Raeshad Hadrash',
-		'ancient' => 'Stargate',
+		'ancient' => 'Astria Porta',
 		'latin' => 'Chappa\'ai'
 	],
 	[
