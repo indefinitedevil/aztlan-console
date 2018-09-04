@@ -18,7 +18,7 @@ function translate($item) {
 function stargate() {
 	translate([
 		'kreoleac' => 'Raeshad Hadrash',
-		'ancient' => 'Stargate',
+		'ancient' => 'Astria Portia',
 		'latin' => 'Chappa\'ai',
 	]);
 }
