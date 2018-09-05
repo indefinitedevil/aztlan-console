@@ -3,6 +3,51 @@ include('header.php');
 ?>
 <div class="scroll">
 <?php
+$trials1 = [
+	[
+		'code' => 1796,
+		'name' => 'Audio Communication Relay',
+		'info' => 'Repairs to the audio systems are required.',
+        'audio' => '1796',
+	],
+	[
+		'code' => 1710,
+		'name' => 'Test Suite Alpha',
+		'info' => 'Prove your ability to reason.',
+        'audio' => '1710',
+	],
+	[
+		'code' => 1735,
+		'name' => 'Test Suite Beta',
+		'info' => 'Prove your ability to cooperate.',
+        'audio' => '1735',
+	],
+];
+//$trials1 = [];
+$trials2 = [
+	[
+		'code' => 1796,
+		'name' => 'Audio Communication Relay',
+		'info' => 'Repairs to the audio systems are required.',
+        'audio' => '1796',
+	],
+	[
+		'code' => 1710,
+		'name' => 'Test Suite Alpha',
+		'info' => 'Prove your ability to reason.',
+        'audio' => '1710',
+	],
+	[
+		'code' => 1735,
+		'name' => 'Test Suite Beta',
+		'info' => 'Prove your ability to cooperate.',
+        'audio' => '1735',
+	],
+];
+$trials2 = [];
+$trials3 = [];
+$trials4 = [];
+$trials5 = [];
 $locations = [
 	[
 		'code' => 2307,
@@ -47,18 +92,26 @@ $locations = [
 		'info' => 'Contains the vaccine for the disease contracted by the crew.',
         'audio' => 'medical',
 	],
+];
+$locations = array_merge(
+	$trials1,
+	$trials2,
+	$trials3,
+	$trials4,
+	$trials5,
+	$locations,
+);
+$stasis = [
 	[
 		'code' => 1125,
 		'name' => 'Primary Stasis Chamber',
 		'info' => 'Systems reduced to minimum capacity. Requires repair.',
-		'lock' => true,
         'audio' => 'stasis1',
 	],
 	[
 		'code' => 1121,
 		'name' => 'Secondary Stasis Chamber',
 		'info' => 'Systems reduced to minimum capacity. Requires repair.',
-		'lock' => true,
         'audio' => 'stasis2',
 	],
 	[
@@ -67,13 +120,8 @@ $locations = [
 		'info' => 'Controls power for the stasis chambers. Currently damaged. Requires repair.',
         'audio' => 'stasis3',
 	],
-	[
-		'code' => 1341,
-		'name' => 'Communications Laboratory',
-		'info' => 'This area has previously been ransacked.',
-        'audio' => 'comms',
-	],
 ];
+//$locations = $stasis;
 locations($locations);
 ?>
 <?php
