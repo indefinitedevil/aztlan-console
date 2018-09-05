@@ -2,6 +2,16 @@
 <head>
 <title>Aztlán console</title>
 <link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+    jQuery(document).on('click', '.audio-control', function() {
+        jQuery('audio').each(function() {
+            this.pause();
+            this.currentTime = 0;
+        });
+        jQuery('#' + jQuery(this).data('id'))[0].play();
+    });
+</script>
 </head>
 <body>
 <?php
@@ -43,7 +53,7 @@ function locations($locations) {
 	<?php foreach ($locations as $loc) :?>
 	<?php
 	if (!empty($loc['audio'])) {
-		$loc['audio'] = '<audio src="' . $loc['audio'] . '" preload controls></audio>';
+		$loc['audio'] = '<audio id="' . $loc['audio'] . '" src="audio/' . $loc['audio'] . '.mp3" preload="auto"></audio><div class="audio-control" data-id="' . $loc['audio'] . '">&#9654;</div>';
 	} else {
 		$loc['audio'] = '';
 	}
@@ -52,9 +62,8 @@ function locations($locations) {
 	}
 	?>
 	<tr>
-		<td class="code<?php echo $loc['lock'] ? ' locked' : ''; ?>"><?php echo $loc['code']; ?></td>
+		<td class="code<?php echo $loc['lock'] ? ' locked' : ''; ?>"><?php echo $loc['code']; ?><?php echo $loc['audio']; ?></td>
 		<td><?php echo $loc['name']; ?><br><small><?php echo $loc['info']; ?></small></td>
-		<td><?php echo $loc['audio']; ?></td>
 	</tr>
 	<?php endforeach; ?>
 	</tbody>

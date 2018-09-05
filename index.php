@@ -43,7 +43,6 @@ $menu = [
 	</div>
 	<iframe name="display" src="<?php echo $menu[0]['url']; ?>"></iframe>
 </div>
-<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
 function ata_toggle(enabled) {
 	if (enabled) {

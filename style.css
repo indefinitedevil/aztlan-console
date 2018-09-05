@@ -162,3 +162,29 @@ a {
 button, input {
 	font-family: 'Aurebesh';
 }
+.audio-control {
+	background-color: #060;
+	border-radius: 4rem;
+	color: #222;
+	padding: 1.3rem 0.6rem 1.5rem 1.2rem;
+	text-align: center;
+	float: right;
+	margin: 0 0 1rem 1rem;
+	line-height: 1.5rem;
+}
+td .audio-control {
+	float: left;
+	margin: 0;
+	padding-right: 0;
+}
+@media screen and (max-width:1000px) {
+	.menu ul li:first-child,
+	.hide-on-handheld {
+		display: none;
+	}
+}
+@media screen and (min-width:1000px) {
+	.show-on-handheld {
+		display: none;
+	}
+}
