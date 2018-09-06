@@ -8,46 +8,57 @@ $trials1 = [
 		'code' => 1796,
 		'name' => 'Audio Communication Relay',
 		'info' => 'Repairs to the audio systems are required.',
-        'audio' => '1796',
+        'audio' => 'audio-repair',
 	],
 	[
 		'code' => 1710,
 		'name' => 'Test Suite Alpha',
-		'info' => 'Prove your ability to reason.',
-        'audio' => '1710',
+		'info' => 'Demonstrate your ability to reason.',
+        'audio' => 'reason',
 	],
 	[
 		'code' => 1735,
 		'name' => 'Test Suite Beta',
-		'info' => 'Prove your ability to cooperate.',
-        'audio' => '1735',
+		'info' => 'Demonstrate your ability to cooperate.',
+        'audio' => 'cooperate',
 	],
 ];
-//$trials1 = [];
 $trials2 = [
 	[
-		'code' => 1796,
-		'name' => 'Audio Communication Relay',
-		'info' => 'Repairs to the audio systems are required.',
-        'audio' => '1796',
-	],
-	[
-		'code' => 1710,
-		'name' => 'Test Suite Alpha',
-		'info' => 'Prove your ability to reason.',
-        'audio' => '1710',
-	],
-	[
-		'code' => 1735,
-		'name' => 'Test Suite Beta',
-		'info' => 'Prove your ability to cooperate.',
-        'audio' => '1735',
+		'code' => 2710,
+		'name' => 'Syrinx Settlement',
+		'info' => 'These people must find somewhere else to live or they will soon die.',
+        'audio' => 'syrinx',
 	],
 ];
-$trials2 = [];
-$trials3 = [];
-$trials4 = [];
-$trials5 = [];
+$trials3 = [
+	[
+		'code' => 2783,
+		'name' => 'Near Syrinx Settlement',
+		'info' => 'One of the humans is injured and requires assistance.',
+        'audio' => 'rescue',
+	],
+	[
+		'code' => 1332,
+		'name' => 'Secure Vault',
+		'info' => 'Components inside could be utilised in repairs.',
+        'audio' => 'vault',
+	],
+];
+$trials4 = [
+	[
+		'code' => 1723,
+		'name' => 'Test Suite Gamma',
+		'info' => 'Demonstrate your ability to reason.',
+        'audio' => 'reason',
+	],
+	[
+		'code' => 1732,
+		'name' => 'Test Suite Delta',
+		'info' => 'Demonstrate your ability to reason.',
+        'audio' => 'reason',
+	],
+];
 $locations = [
 	[
 		'code' => 2307,
@@ -75,12 +86,6 @@ $locations = [
 		'info' => '',
 	],
 	[
-		'code' => 2710,
-		'name' => 'Syrinx Settlement',
-		'info' => 'These people must find somewhere else to live or they will soon die.',
-        'audio' => 'syrinx',
-	],
-	[
 		'code' => 1153,
 		'name' => 'Gate Room',
 		'info' => 'Off limits',
@@ -92,15 +97,13 @@ $locations = [
 		'info' => 'Contains the vaccine for the disease contracted by the crew.',
         'audio' => 'medical',
 	],
+	[
+		'code' => 1761,
+		'name' => 'Arboretum',
+		'info' => 'Collection of flora from different worlds.',
+        'audio' => 'arboretum',
+	],
 ];
-$locations = array_merge(
-	$trials1,
-	$trials2,
-	$trials3,
-	$trials4,
-	$trials5,
-	$locations,
-);
 $stasis = [
 	[
 		'code' => 1125,
@@ -122,6 +125,19 @@ $stasis = [
 	],
 ];
 //$locations = $stasis;
+//$trials1 = [];
+$trials2 = [];
+$trials3 = [];
+$trials4 = [];
+$trials5 = [];
+$locations = array_merge(
+	$trials1,
+	$trials2,
+	$trials3,
+	$trials4,
+	$trials5,
+	$locations,
+);
 locations($locations);
 ?>
 <?php
