@@ -26,7 +26,7 @@ $trials1 = [
 $trials2 = [
 	[
 		'code' => 2710,
-		'name' => 'Syrinx Settlement',
+		'name' => 'Settlement',
 		'info' => 'These people must find somewhere else to live or they will soon die.',
         'audio' => 'syrinx',
 	],
@@ -34,7 +34,7 @@ $trials2 = [
 $trials3 = [
 	[
 		'code' => 2783,
-		'name' => 'Near Syrinx Settlement',
+		'name' => 'Near Settlement',
 		'info' => 'One of the humans is injured and requires assistance.',
         'audio' => 'rescue',
 	],
@@ -57,6 +57,26 @@ $trials4 = [
 		'name' => 'Test Suite Delta',
 		'info' => 'Demonstrate your ability to reason.',
         'audio' => 'reason',
+	],
+];
+$trials5 = [
+	[
+		'code' => 1393,
+		'name' => 'Propulsion',
+		'info' => 'Repair the propulsion systems.',
+        'audio' => 'propulsion',
+	],
+	[
+		'code' => 1362,
+		'name' => 'Life Support',
+		'info' => 'Repair the life support systems.',
+        'audio' => 'life-support',
+	],
+	[
+		'code' => 1357,
+		'name' => 'Weapons Power Relay',
+		'info' => 'Repair the weapons power relay.',
+        'audio' => 'weapons',
 	],
 ];
 $locations = [
