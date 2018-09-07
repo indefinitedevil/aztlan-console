@@ -65,6 +65,10 @@ jQuery(document).on('keypress', function(event) {
 		console.log('scan');
 		jQuery('iframe').attr('src', 'scan.php');
 	}
+	if ("@" == event.key) {
+		console.log('rings');
+		jQuery('iframe').attr('src', 'rings.php');
+	}
 });
 jQuery('iframe').on('load', function() {
 	ata_toggle(ata_on());

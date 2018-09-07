@@ -26,7 +26,7 @@ $trials1 = [
 $trials2 = [
 	[
 		'code' => 2710,
-		'name' => 'Syrinx Settlement',
+		'name' => 'Settlement',
 		'info' => 'These people must find somewhere else to live or they will soon die.',
         'audio' => 'syrinx',
 	],
@@ -34,8 +34,8 @@ $trials2 = [
 $trials3 = [
 	[
 		'code' => 2783,
-		'name' => 'Near Syrinx Settlement',
-		'info' => 'One of the humans is injured and requires assistance.',
+		'name' => 'Near Settlement',
+		'info' => 'One of the people is injured and requires assistance.',
         'audio' => 'rescue',
 	],
 	[
@@ -136,7 +136,7 @@ $locations = array_merge(
 	$trials3,
 	$trials4,
 	$trials5,
-	$locations,
+	$locations
 );
 if ($locations == $stasis) {
 	$audio = 'stasis-alert';
