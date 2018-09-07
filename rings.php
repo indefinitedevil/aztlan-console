@@ -150,7 +150,7 @@ $stasis = [
         'audio' => 'stasis3',
 	],
 ];
-//$locations = $stasis;
+$locations = $stasis;
 $trials1 = [];
 //$trials2 = [];
 $trials3 = [];
