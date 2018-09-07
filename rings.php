@@ -118,6 +118,12 @@ $locations = [
         'audio' => 'medical',
 	],
 	[
+		'code' => 1341,
+		'name' => 'Communications Laboratory',
+		'info' => 'This area previously ransacked.',
+        'audio' => 'medical',
+	],
+	[
 		'code' => 1761,
 		'name' => 'Arboretum',
 		'info' => 'Collection of flora from different worlds.',
