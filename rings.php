@@ -145,8 +145,8 @@ $stasis = [
 	],
 ];
 //$locations = $stasis;
-//$trials1 = [];
-$trials2 = [];
+$trials1 = [];
+//$trials2 = [];
 $trials3 = [];
 $trials4 = [];
 $trials5 = [];
