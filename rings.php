@@ -138,6 +138,10 @@ $locations = array_merge(
 	$trials5,
 	$locations,
 );
+if ($locations == $stasis) {
+	$audio = 'stasis-alert';
+	echo '<audio id="' . $audio . '" src="audio/' . $audio . '.mp3" preload="auto" autoplay loop></audio>';
+}
 locations($locations);
 ?>
 <?php
