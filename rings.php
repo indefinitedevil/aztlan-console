@@ -59,6 +59,26 @@ $trials4 = [
         'audio' => 'reason',
 	],
 ];
+$trials5 = [
+	[
+		'code' => 1393,
+		'name' => 'Propulsion',
+		'info' => 'Repair the propulsion systems.',
+        'audio' => 'propulsion',
+	],
+	[
+		'code' => 1362,
+		'name' => 'Life Support',
+		'info' => 'Repair the life support systems.',
+        'audio' => 'life-support',
+	],
+	[
+		'code' => 1357,
+		'name' => 'Weapons Power Relay',
+		'info' => 'Repair the weapons power relay.',
+        'audio' => 'weapons',
+	],
+];
 $locations = [
 	[
 		'code' => 2307,
