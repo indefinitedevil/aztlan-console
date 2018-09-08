@@ -142,8 +142,8 @@ $stasis = [
 $trials1 = [];
 //$trials2 = [];
 $trials3 = [];
-//$trials4 = [];
-$trials5 = [];
+$trials4 = [];
+//$trials5 = [];
 $locations = array_merge(
 	$trials1,
 	$trials2,
