@@ -55,7 +55,7 @@ $trials4 = [
 	[
 		'code' => 1723,
 		'name' => 'Test Suite Gamma',
-		'info' => 'Demonstrate your ability to reason.',
+		'info' => 'Demonstrate your capacity for compassion.',
         'audio' => 'reason',
 	],
 ];
@@ -153,8 +153,8 @@ $stasis = [
 //$locations = $stasis;
 $trials1 = [];
 //$trials2 = [];
-//$trials3 = [];
-$trials4 = [];
+$trials3 = [];
+//$trials4 = [];
 $trials5 = [];
 $locations = array_merge(
 	$trials1,
