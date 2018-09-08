@@ -13,7 +13,7 @@
     });
 </script>
 </head>
-<body>
+<body class="latin">
 <?php
 function translate($item) {
 	if (empty($item['latin'])) {
