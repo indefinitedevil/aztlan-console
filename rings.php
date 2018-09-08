@@ -44,17 +44,17 @@ $trials3 = [
 		'info' => 'Components inside could be utilised in repairs.',
         'audio' => 'vault',
 	],
+	[
+		'code' => 1732,
+		'name' => 'Test Suite Delta',
+		'info' => 'Demonstrate your ability to reason.',
+        'audio' => 'reason',
+	],
 ];
 $trials4 = [
 	[
 		'code' => 1723,
 		'name' => 'Test Suite Gamma',
-		'info' => 'Demonstrate your ability to reason.',
-        'audio' => 'reason',
-	],
-	[
-		'code' => 1732,
-		'name' => 'Test Suite Delta',
 		'info' => 'Demonstrate your ability to reason.',
         'audio' => 'reason',
 	],
