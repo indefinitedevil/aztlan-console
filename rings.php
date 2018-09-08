@@ -134,20 +134,8 @@ $stasis = [
 	[
 		'code' => 1125,
 		'name' => 'Primary Stasis Chamber',
-		'info' => 'Systems reduced to minimum capacity. Requires repair.',
+		'info' => 'Remaining occupants remain in stasis. Requires command override.',
         'audio' => 'stasis1',
-	],
-	[
-		'code' => 1121,
-		'name' => 'Secondary Stasis Chamber',
-		'info' => 'Systems reduced to minimum capacity. Requires repair.',
-        'audio' => 'stasis2',
-	],
-	[
-		'code' => 1377,
-		'name' => 'Power Relay',
-		'info' => 'Controls power for the stasis chambers. Currently damaged. Requires repair.',
-        'audio' => 'stasis3',
 	],
 ];
 //$locations = $stasis;
@@ -162,6 +150,7 @@ $locations = array_merge(
 	$trials3,
 	$trials4,
 	$trials5,
+	$stasis,
 	$locations
 );
 if ($locations == $stasis) {
