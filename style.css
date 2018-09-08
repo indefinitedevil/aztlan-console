@@ -42,6 +42,10 @@ small {
 	font-size: 5rem;
 	letter-spacing: 0.7rem;
 	text-align: center;
+	font-size: kreoleac !important;
+}
+.ancient .locations .code {
+	font-size: ancient !important;
 }
 .locations .code.locked {
 	color: #600;
