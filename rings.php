@@ -63,19 +63,19 @@ $trials5 = [
 	[
 		'code' => 1393,
 		'name' => 'Propulsion',
-		'info' => 'Repair the propulsion systems.',
+		'info' => 'Repair the propulsion systems. [Only two of this set can be completed]',
         'audio' => 'propulsion',
 	],
 	[
 		'code' => 1362,
 		'name' => 'Life Support',
-		'info' => 'Repair the life support systems.',
+		'info' => 'Repair the life support systems. [Only two of this set can be completed]',
         'audio' => 'life-support',
 	],
 	[
 		'code' => 1357,
 		'name' => 'Weapons Power Relay',
-		'info' => 'Repair the weapons power relay.',
+		'info' => 'Repair the weapons power relay. [Only two of this set can be completed]',
         'audio' => 'weapons',
 	],
 ];
