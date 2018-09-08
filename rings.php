@@ -150,10 +150,10 @@ $stasis = [
         'audio' => 'stasis3',
 	],
 ];
-$locations = $stasis;
+//$locations = $stasis;
 $trials1 = [];
 //$trials2 = [];
-$trials3 = [];
+//$trials3 = [];
 $trials4 = [];
 $trials5 = [];
 $locations = array_merge(
