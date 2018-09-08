@@ -118,12 +118,6 @@ $locations = [
         'audio' => 'medical',
 	],
 	[
-		'code' => 1341,
-		'name' => 'Communications Laboratory',
-		'info' => 'This area previously ransacked.',
-        'audio' => 'medical',
-	],
-	[
 		'code' => 1761,
 		'name' => 'Arboretum',
 		'info' => 'Collection of flora from different worlds.',
@@ -143,7 +137,7 @@ $trials1 = [];
 //$trials2 = [];
 $trials3 = [];
 $trials4 = [];
-//$trials5 = [];
+$trials5 = [];
 $locations = array_merge(
 	$trials1,
 	$trials2,
