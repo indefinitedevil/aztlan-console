@@ -132,6 +132,14 @@ $stasis = [
         'audio' => 'stasis1',
 	],
 ];
+$yaotel = [
+	[
+		'code' => 1703,
+		'name' => 'Guest Chambers',
+		'info' => 'You are invited to join Yaotel for a discussion.',
+        'audio' => 'stasis1',
+	],
+];
 //$locations = $stasis;
 $trials1 = [];
 //$trials2 = [];
@@ -139,6 +147,7 @@ $trials3 = [];
 $trials4 = [];
 $trials5 = [];
 $locations = array_merge(
+	$yaotel,
 	$trials1,
 	$trials2,
 	$trials3,
