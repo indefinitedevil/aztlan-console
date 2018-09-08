@@ -114,7 +114,7 @@ $locations = [
 	[
 		'code' => 1119,
 		'name' => 'Medical Laboratory',
-		'info' => 'Contains the vaccine for the disease contracted by the crew.',
+		'info' => '',
         'audio' => 'medical',
 	],
 	[
