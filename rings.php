@@ -130,6 +130,7 @@ $stasis = [
 		'name' => 'Primary Stasis Chamber',
 		'info' => 'Remaining occupants remain in stasis. Requires command override.',
         'audio' => 'stasis1',
+		'lock' => true,
 	],
 ];
 $yaotel = [
@@ -140,6 +141,7 @@ $yaotel = [
         'audio' => 'stasis1',
 	],
 ];
+	$yaotel = [];
 //$locations = $stasis;
 $trials1 = [];
 //$trials2 = [];
