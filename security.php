@@ -8,7 +8,7 @@ include('header.php');
 <p>Testing phase is now complete.</p>
 <p>You have been successful. Further access will be provided to aid in repairs pending authorisation.</p>
 <p>Authorisation must be provided by the highest ranking crewmember aboard.</p>
-  <font face=kreoleac>a b c d e f g h i j k l m n o p q r s t u v w x y z</font>
+  
 </div>
 <?php
 include('footer.php');
