@@ -50,6 +50,7 @@ $locations = [
 	],
 ];
 foreach ($locations as $key => $loc) {
+	if ($loc['name'] != 'Lorenkad')
 	$locations[$key]['lock'] = true;
 }
 locations($locations);
