@@ -46,7 +46,7 @@ $locations = [
 		'code' => gate2('thundr'),
 		'name' => 'Lorenkad',
 		'info' => '',
-		'lock' => true,
+		'lock' => 2,
 	],
 ];
 foreach ($locations as $key => $loc) {
