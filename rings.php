@@ -27,7 +27,7 @@ $trials2 = [
 	[
 		'code' => 2710,
 		'name' => 'Settlement',
-		'info' => 'These people must find somewhere else to live or they will soon die.',
+		'info' => '<span style="color:#600">ALERT:</span> These people have begun fighting amongst themselves.',
         'audio' => 'syrinx',
 	],
 ];
@@ -61,24 +61,22 @@ $trials4 = [
 ];
 $trials5 = [
 	[
-		'code' => 1393,
-		'name' => 'Propulsion',
-		'info' => 'Repair the propulsion systems. [Only two of this set can be completed]',
-        'audio' => 'propulsion',
+		'code' => 1371,
+		'name' => 'Power Conduit Alpha',
+		'info' => 'This system is offline and diagnostics are not possible. May require extensive repairs. Will enable full power to engines.',
 	],
 	[
-		'code' => 1362,
-		'name' => 'Life Support',
-		'info' => 'Repair the life support systems. [Only two of this set can be completed]',
-        'audio' => 'life-support',
+		'code' => 1376,
+		'name' => 'Power Conduit Beta',
+		'info' => 'This system is non-functional. Control inputs are non-responsive. Required on-site diagnostic and reboot. Will enable full power to shield array.',
 	],
 	[
-		'code' => 1357,
-		'name' => 'Weapons Power Relay',
-		'info' => 'Repair the weapons power relay. [Only two of this set can be completed]',
-        'audio' => 'weapons',
+		'code' => 1397,
+		'name' => 'Drive Coolant Systems',
+		'info' => 'Engine tests have revealed coolant systems are not working correctly and drive cores are overheating. Will require on-site repair to enable drive use.',
 	],
 ];
+	//This system is partially functional. Power throughput is below stable levels. Will require systems check and repair. Will enable
 $locations = [
 	[
 		'code' => 2307,
@@ -147,7 +145,7 @@ $trials1 = [];
 //$trials2 = [];
 $trials3 = [];
 $trials4 = [];
-$trials5 = [];
+//$trials5 = [];
 $locations = array_merge(
 	$yaotel,
 	$trials1,
