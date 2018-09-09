@@ -62,7 +62,7 @@ function locations($locations) {
 	}
 	?>
 	<tr>
-		<td class="code<?php echo $loc['lock'] ? ' locked' : ''; ?>"><?php echo $loc['code']; ?><?php echo $loc['audio']; ?></td>
+		<td class="code<?php echo $loc['lock'] ? ' locked' : ''; ?>"<?php echo $loc['lock'] === 2 ? 'style="color:#f60;"' : ''; ?>><?php echo $loc['code']; ?><?php echo $loc['audio']; ?></td>
 		<td><?php echo $loc['name']; ?><br><small><?php echo $loc['info']; ?></small></td>
 	</tr>
 	<?php endforeach; ?>
